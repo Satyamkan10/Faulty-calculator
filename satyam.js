@@ -3,6 +3,7 @@ let b = parseFloat(prompt("enter a second number"));
 let c = prompt("enter the type of calculation +,-,*,/");
 
 if (Math.random() < 0.1) {
+    // fault 
     if (c == '+') {
         const fault1 = a - b;
         document.write(fault1);
@@ -21,6 +22,7 @@ if (Math.random() < 0.1) {
     }
 }
 else {
+    // correct
     if (c == '+'){
         let add = a + b;
         document.write(add);
